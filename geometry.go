@@ -19,13 +19,5 @@ D = math.Sqrt((p1.X-p2.X)*(p1.X-p2.X)+(p1.Y-p2.Y)*(p1.Y-p2.Y))
 return
 }
 
-func main(){
-var x,y float64
-var p1,p2 Point
-fmt.Scan(&x,&y)
-p1 =CreateAPoint(x,y)
-fmt.Scan(&x,&y)
-p2 =CreateAPoint(x,y)
-fmt.Println(Distance(p1,p2))
-}
+
 
