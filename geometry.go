@@ -8,7 +8,7 @@ X,Y float64
 }
 
 func Media(p1,p2 Point)(P Point){
-P.x=(p1.X+p2.X)/2
+P.X=(p1.X+p2.X)/2
 P.Y=(p1.Y+p2.Y)/2
 return
 }
